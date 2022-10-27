@@ -8,14 +8,14 @@
 
 /*generals*/
 *{
-    font-family: 'Fredoka One', 'cursive';
-
+    font-family: 'Fredoka', sans-serif;
 }
 /*utilities*/
 
 .container{
     width: 1300px;
     margin: 0 auto;
+    
 }
 
 
@@ -23,25 +23,27 @@
     content: ' ';
     clear:both;
     display: block
-    }
+}
 
 .text-alignment{
     text-align: center;
-    }
+}
 
     img{
         width: 108px;
-    }
+}
 
 
 
 /*colors*/
 
 .pink{
-    color: rgb(229,49,112);}
+    color: rgb(229,49,112);
+}
 
 .blu{
-    color: rgb(87,202,241)}
+    color: rgb(87,202,241)
+}
 
 
 /* header */
@@ -52,24 +54,21 @@ h1{
 
 
 p{
-font-family: sans-serif;
+
 margin-top: 2.5em;
 margin-bottom: 4em;
-
 }
 
 /* cards */
 
 .card{
     height: 110px;
-    width: 400px;
     float: left; 
-    width: calc(100% / 3 -10);
+    width: calc(100% / 3 - 16px);
     margin-bottom: 25px;
-    margin: 10px;
-    font-family: sans-serif;
+    margin: 8px;
+   
     background-color: black;
-
 }
 
 .float-tags{
@@ -91,13 +90,11 @@ div > p {
     margin-right: 94px;
     margin-left: 5px;
     padding-left: 8px;
-}
+ }
 
 a{
     color: rgb(34, 205, 235);
     text-decoration: none;
     padding-left: 8px;
-    font-family: sans-serif;
-    
-
+   
 }
