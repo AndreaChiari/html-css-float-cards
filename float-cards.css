@@ -1,0 +1,103 @@
+/* CSS reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generals*/
+*{
+    font-family: 'Fredoka One', 'cursive';
+
+}
+/*utilities*/
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+.clearfix::after {
+    content: ' ';
+    clear:both;
+    display: block
+    }
+
+.text-alignment{
+    text-align: center;
+    }
+
+    img{
+        width: 108px;
+    }
+
+
+
+/*colors*/
+
+.pink{
+    color: rgb(229,49,112);}
+
+.blu{
+    color: rgb(87,202,241)}
+
+
+/* header */
+
+h1{
+    margin-top:2.5em ;
+}
+
+
+p{
+font-family: sans-serif;
+margin-top: 2.5em;
+margin-bottom: 4em;
+
+}
+
+/* cards */
+
+.card{
+    height: 110px;
+    width: 400px;
+    float: left; 
+    width: calc(100% / 3 -10);
+    margin-bottom: 25px;
+    margin: 10px;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+
+.float-tags{
+    float: left; 
+    margin-bottom: 6px;
+    margin-left: 1px;
+}
+
+h3{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    padding-left: 8px;
+}
+
+div > p {
+    color: white;
+    margin-top: 3px;
+    margin-right: 94px;
+    margin-left: 5px;
+    padding-left: 8px;
+}
+
+a{
+    color: rgb(34, 205, 235);
+    text-decoration: none;
+    padding-left: 8px;
+    font-family: sans-serif;
+    
+
+}
