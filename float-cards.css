@@ -63,10 +63,11 @@ margin-bottom: 4em;
 
 .card{
     height: 110px;
+    width: 413px;
     float: left; 
-    width: calc(100% / 3 - 16px);
+    width: calc(100% / 3 - 10px);
     margin-bottom: 25px;
-    margin: 8px;
+    margin: 5px;
    
     background-color: black;
 }
@@ -87,7 +88,7 @@ h3{
 div > p {
     color: white;
     margin-top: 3px;
-    margin-right: 94px;
+    margin-right: 112px;
     margin-left: 5px;
     padding-left: 8px;
  }
