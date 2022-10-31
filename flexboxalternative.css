@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*generals*/
+*{
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+
+/*utilities*/
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+
+.text-alignment{
+    text-align: center;
+}
+
+img{
+    width: 108px;
+}
+
+
+
+/*colors*/
+
+.pink{
+    color: rgb(229,49,112);
+}
+
+.blu{
+    color: rgb(87,202,241)
+}
+
+
+/* header */
+
+header{
+    margin-bottom: 75px;
+    }
+
+h1{
+    margin-top:2.5em ;
+    margin-bottom: 50px;
+}
+
+/* cards */
+
+.card{
+    height: 110px;
+    width: calc(100% / 3);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 10px;
+   
+}
+
+.flex-MLG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    height: 105px;
+    margin-left: 115px;
+}
+
+
+h3{
+    color: rgb(255, 255, 255);
+    margin-top: 21px;
+    margin-left: 5px;
+    
+}
+
+div > p {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-top: 2px;
+    
+}
+
+a{
+    color: rgb(34, 205, 235);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 3px;
+}
